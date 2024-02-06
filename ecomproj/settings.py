@@ -14,7 +14,7 @@ from pathlib import Path
 import os
 from django.urls import reverse_lazy
 
-BASE_URL = 'http://localhost:8000'  # Replace with your actual domain and port
+BASE_URL = '103.169.86.3'  # Replace with your actual domain and port
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -30,7 +30,7 @@ SECRET_KEY = "django-insecure-=gz6u1d6i@v#$c@(zxy_@4+c7w)5hlumrdyu_ru^(_!kc!b5_8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.1.118', '192.168.248.230', '127.0.0.1', '*']
+ALLOWED_HOSTS = ['103.169.86.3', '*']
 
 SITE_ID = 1
 # Application definition
@@ -154,9 +154,10 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.hostinger.com'
 EMAIL_PORT = 465  # Use the appropriate port for your email provider
 EMAIL_USE_SSL = True  # Use SSL for SMTP
-EMAIL_HOST_USER = 'info@nationalmarketingprojects.com'
-EMAIL_HOST_PASSWORD = '4Q*72VO5eupN'
-DEFAULT_FROM_EMAIL = 'info@nationalmarketingprojects.com'  # Use the same email as HOST_USER
+EMAIL_HOST_USER = 'princesachdeva@nationalmarketingprojects.com'
+EMAIL_HOST_PASSWORD = 'Prince_django_autuh_admin_panel_49494'
+DEFAULT_FROM_EMAIL = 'princesachdeva@nationalmarketingprojects.com'  # Use the same email as HOST_USER
+
 
 PAYPAL_RECEIVER_EMAIL = 'sprince1500@gmail.com'
 PAYPAL_TEST =True

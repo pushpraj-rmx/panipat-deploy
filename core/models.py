@@ -238,7 +238,7 @@ class Product(models.Model):
     featured = models.BooleanField(default=False)
     digital = models.BooleanField(default=False)
     best_deal = models.BooleanField(default=False)
-    best_seller = models.BooleanField(default=False)
+    best_seller = models.BooleanField(default=False) 
     sku = ShortUUIDField(unique=True, max_length=50, prefix="sku", alphabet="12345678900")
     date = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(null=True)
